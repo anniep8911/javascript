@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>20241214DOM.html</title>
+  </head>
+  <body>
+    <h1 id="h1">타이틀 입니다1</h1>
+    <h1 class="h1">타이틀 입니다2</h1>
+    <h1 class="h1">타이틀 입니다3</h1>
+    <h1 class="h1">타이틀 입니다4</h1>
+    <h1>타이틀 입니다5</h1>
+    <script>
+      let h1 = document.querySelectorAll("#h1");
+      console.log(h1[0]);
+      // 아래의 h1을 오류나지 않게 고쳐보세요
+      // git에 업로드 하시고 알려주세요!
+      // 2시까지 하시고 안되면 숙...제....
+      // 빨리 되시면 가시면 됩니다!
+      // 힌트! addEventListener는 1개 형만 쓸수있어요 (복수 형태 절대 불가)
+      h1.addEventListener("click", function () {
+        alert("h1이 선택됐습니다!");
+      });
+    </script>
+  </body>
+</html>
